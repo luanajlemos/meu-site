@@ -82,3 +82,12 @@ button {
 button:hover {
     background-color: #FF69B4; /* Rosa mais forte para hover */
 }
+
+#presentation {
+    color: #000000; /* Cor padrão do texto */
+    font-size: 24px;
+}
+
+.highlight {
+    color: #84b6f4; /* Cor de destaque para simular a leitura */
+}
