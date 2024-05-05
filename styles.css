@@ -41,29 +41,24 @@ section {
     background-color: #FFDAB9; /* Pêssego pastel */
 }
 
-#sobre {
-    background-color: #E6E6FA; /* Lavanda pastel */
+/* Cor de fundo para a página inicial */
+body.home {
+    background-color: #f0e68c; /* Um tom de cáqui claro */
 }
 
-#textos {
-    background-color: #B0E0E6; /* Azul Pólvora pastel */
-}
-.texto-box {
-    background-color: #ffffff; /* Cor de fundo branca para destacar o texto */
-    border: 2px solid #B0E0E6; /* Borda em azul Pólvora pastel */
-    padding: 20px;
-    margin: 20px 0;
-    width: 500px;       /* Largura fixa */
-    height: 300px;      /* Altura fixa */
-    overflow: auto; /* Adiciona rolagem se o texto for muito longo */
+/* Cor de fundo para a página Sobre */
+body.sobre {
+    background-color: #e0ffff; /* Cor azul claro (Ciano claro) */
 }
 
-#exercicios {
-    background-color: #98FB98; /* Verde pálido pastel */
+/* Cor de fundo para a página Textos */
+body.textos {
+    background-color: #ffe4e1; /* Cor rosa claro (Misty Rose) */
 }
 
-#contato {
-    background-color: #FFFACD; /* Limão Chiffon pastel */
+/* Cor de fundo para a página Contato */
+body.contato {
+    background-color: #f0fff0; /* Cor verde claro (Honeydew) */
 }
 
 /* Estilos para o rodapé */
