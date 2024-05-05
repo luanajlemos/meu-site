@@ -1,0 +1,89 @@
+/* Definir a fonte padrão e o tamanho para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Usando Arial como fonte padrão */
+    font-size: 16px; /* Tamanho da fonte definido como 16px */
+    color: #555; /* Cor do texto em tom suave */
+    background-color: #f8f8f8; /* Cor de fundo suave para o site */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #FADADD; /* Rosa pastel */
+    color: #404040;
+    padding: 8px 0;
+    text-align: center;
+}
+
+/* Estilização da barra de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para cada seção */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#home {
+    background-color: #FFDAB9; /* Pêssego pastel */
+}
+
+#sobre {
+    background-color: #E6E6FA; /* Lavanda pastel */
+}
+
+#textos {
+    background-color: #B0E0E6; /* Azul Pólvora pastel */
+}
+.texto-box {
+    background-color: #ffffff; /* Cor de fundo branca para destacar o texto */
+    border: 2px solid #B0E0E6; /* Borda em azul Pólvora pastel */
+    padding: 20px;
+    margin: 20px 0;
+    width: 500px;       /* Largura fixa */
+    height: 300px;      /* Altura fixa */
+    overflow: auto; /* Adiciona rolagem se o texto for muito longo */
+}
+
+#exercicios {
+    background-color: #98FB98; /* Verde pálido pastel */
+}
+
+#contato {
+    background-color: #FFFACD; /* Limão Chiffon pastel */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #EEDD82; /* Ouro claro pastel */
+    color: #404040;
+}
+
+/* Botão de formulário estilizado */
+button {
+    background-color: #FFB6C1; /* Rosa claro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Rosa mais forte para hover */
+}
