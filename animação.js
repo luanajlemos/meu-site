@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var textElem = document.getElementById('karaoke');
+    var textElem = document.getElementById('animação');
     var words = textElem.innerText.split(' ');
     textElem.innerHTML = ''; // Limpar o texto original
 
